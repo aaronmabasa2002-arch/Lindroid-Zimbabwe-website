@@ -1,0 +1,114 @@
+.hero-section {
+  background-image:
+    linear-gradient(110deg, rgba(4, 15, 30, 0.8), rgba(0, 123, 255, 0.6)),
+    url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 9rem 2rem 5rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(280px, 700px);
+}
+
+.hero-content {
+  text-align: left;
+  background: rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(4px);
+  padding: 2rem;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.hero-content h1 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  max-width: 62ch;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0.85rem 1.35rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.cta-btn.primary {
+  background-color: white;
+  color: var(--accent);
+}
+
+.cta-btn.primary:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.cta-btn.secondary {
+  border-color: rgba(255, 255, 255, 0.85);
+  color: white;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.cta-btn.secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content {
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .hero-content p {
+    margin-inline: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+}
