@@ -1,16 +1,17 @@
 .footer {
-  background: linear-gradient(180deg, #0b1f4d 0%, #071634 100%);
-  color: #e8efff;
+  background: linear-gradient(180deg, #7c2d12 0%, #431407 100%);
+  color: #ffede0;
   margin-top: 2rem;
 }
 
 .footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   padding: 3rem 2rem 2rem;
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr;
   gap: 2rem;
+  box-sizing: border-box;
 }
 
 .footer h3 {
@@ -30,7 +31,7 @@
 .footer p {
   margin: 0.4rem 0;
   line-height: 1.7;
-  color: #d7e3ff;
+  color: #fcd9c4;
 }
 
 .footer-links {
@@ -40,7 +41,7 @@
 }
 
 .footer a {
-  color: #c9d9ff;
+  color: #ffc9a8;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -57,7 +58,7 @@
 
 .footer-bottom p {
   margin: 0;
-  color: #b8cbff;
+  color: #f5b8a0;
   font-size: 0.95rem;
 }
 

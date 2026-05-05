@@ -10,6 +10,10 @@ function Contact() {
         </p>
         <p>Phone: 0780022890</p>
         <p>
+          <strong>Mr Madunge</strong>
+        </p>
+        <p>Phone: 0776653030</p>
+        <p>
           Email:{' '}
           <a href="mailto:lindroidzimbabwe@gmail.com">lindroidzimbabwe@gmail.com</a>
         </p>

@@ -4,12 +4,12 @@
   --bg: #fff;
   --border: #ddd;
   --code-bg: #f9f9f9;
-  --accent: #007bff; /* Blue */
-  --accent-bg: rgba(0, 123, 255, 0.1);
-  --accent-border: rgba(0, 123, 255, 0.5);
-  --secondary: #ff6600; /* Orange */
-  --secondary-bg: rgba(255, 102, 0, 0.1);
-  --secondary-border: rgba(255, 102, 0, 0.5);
+  --accent: #ff6600;
+  --accent-bg: rgba(255, 102, 0, 0.12);
+  --accent-border: rgba(255, 102, 0, 0.45);
+  --secondary: #cc5200;
+  --secondary-bg: rgba(204, 82, 0, 0.12);
+  --secondary-border: rgba(204, 82, 0, 0.45);
   --social-bg: rgba(249, 249, 249, 0.5);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
@@ -40,9 +40,12 @@
     --bg: #16171d;
     --border: #2e303a;
     --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
+    --accent: #ff8533;
+    --accent-bg: rgba(255, 133, 51, 0.16);
+    --accent-border: rgba(255, 133, 51, 0.5);
+    --secondary: #ff751f;
+    --secondary-bg: rgba(255, 117, 31, 0.16);
+    --secondary-border: rgba(255, 117, 31, 0.5);
     --social-bg: rgba(47, 48, 58, 0.5);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
@@ -54,12 +57,11 @@
 }
 
 #root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
+  width: 100%;
+  max-width: none;
+  margin: 0;
   text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;

@@ -9,17 +9,19 @@
 }
 
 .navbar-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  box-sizing: border-box;
 }
 
 .navbar-logo h1 {
   margin: 0;
   font-size: 1.5rem;
+  color: white;
 }
 
 .navbar-menu {
@@ -41,5 +43,5 @@
 }
 
 .navbar-menu a:hover {
-  color: var(--secondary);
+  color: #fff5e6;
 }
