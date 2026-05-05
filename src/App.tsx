@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
-import Courses from './components/Courses'
+import Services from './components/Services'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -15,7 +15,7 @@ function App()
       <main>
         <Hero />
         <About />
-        <Courses />
+        <Services />
         <Contact />
       </main>
       <Footer />

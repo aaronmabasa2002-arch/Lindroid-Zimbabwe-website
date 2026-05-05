@@ -10,7 +10,7 @@ function Contact() {
         </p>
         <p>Phone: 0780022890</p>
         <p>
-          <strong>Mr Madunge</strong>
+          <strong>Dr Madunge</strong>
         </p>
         <p>Phone: 0776653030</p>
         <p>

@@ -14,7 +14,7 @@ function About() {
         <p className="about-details">
           Our approach goes beyond memorizing facts. We focus on understanding,
           creativity, communication, and character development. Through supportive
-          teaching, structured courses, and learner-centered guidance, we help students
+          teaching, structured services, and learner-centered guidance, we help students
           build skills that prepare them for exams, careers, and lifelong success.
         </p>
       </div>
